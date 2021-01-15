@@ -68,18 +68,10 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 1.| Student will identify the relation between wavelength of the light source and the fringe width of the fringe pattern for the bi prism. | Student will complete introduction. He will be given 4 images for the relation between wavelength of the light source and the fringe width of the fringe pattern for the bi-prism and will choose correct image from them. | Choose the correct image for the relation between wavelength of the light source and the fringe width of the fringe pattern for the bi prism: <img src="images/fre.png"><br>a)A<br>b)B<br>c)C<br>d)D
 2.| To enable the student to describe the methodology to find the value of distance between two virtual sources created by bi-prism. | Student will be given 4 images for the correct procedure to be followed in the experiment. He will choose correct image from them. | Choose the correct image for the relation between wavelength of the light source and the fringe width of the fringe pattern for the bi prism: <img src="images/fre1.png"><br>a)image1<br>b)image2<br>c)image3<br>d)image4
 3.| Student will be able to Predict the fringe  | Student will make experimental set up followed by taking  | On increasing the wavelength of the light source  keeping 2d and D fixed the fringe width:<br>a) Increases<br>b) decreases<br>c)remains constant<br>d) NOT
-4.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
-5.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
+4.| Student will examine the values of mean fringe width, 2d and D and calculate the value of mean wavelength of the light source. | Student will take observations for 2d and D | The value of 2d is related with d1 and d2 according to the relation: A. 2d = √ (d1.d2) <br> B. 2d = √ (d1/d2) <br> C. 2d = d1. √ d2 <br> D. Option 2d = √ d1+d2 <br> 
+5.| Conclude the mean wavelength of the light source. | Students will calculate the mean wavelength of the light source. | The wavelength of the light used in the Fresnel’s bi prism experiment is: <br> A. 5896 A<sup>0</sup> <br> B. 6000 A<sup>0</sup> <br> C. 6896 A<sup>0</sup> <br> D. 8596 A<sup>0</sup> <br> 
 
 
-You can add more question. All questions may not be as MCQ
-Please add the correct answer as well.
-or type the correct answer below the question.
-
- <br>
-
- <u> You can add additional TASKS & Assessment Questions <u>
-<br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
@@ -93,7 +85,8 @@ or type the correct answer below the question.
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
-2.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
-3.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
-4.| Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
+1.| Simulator will allow student to make experimental set up and will alert him in case of wrong setup made. | Student will slide the power button of the simulator to ON position.  | To initiate the simulator
+2.| Simulator will show the green light indicating that the simulator is ready for use.  | Student will fix the positions of light source, bi-prism and Screen.  | To obtain measureable fringes on the screen.
+3.| Simulator will show fringes formed on the screen with the scale to measure the fringes formed.  | Student will measure the fringe width, distance between the virtual sources created and the distance between the source and the screen and mention these values in the table.  | To get the values of fringe width, distance between the virtual sources created and the distance between the source and the screen
+4.| Simulator will calculate values required in the table. | Student will press calculate wavelength button  | To calculate the wavelength of the light used.
+5.| Simulator will calculate the wavelength of the light used.| Student will change the light source and will repeat the experiment  | Student will again note the value of wavelength of the light used calculate the percentage error with the standard value.
