@@ -1,8 +1,7 @@
 ## Pedagogy (Round 1)
 <p align="center">
 
-Remove this line before submitting : To Refer a filled sample of this template visit here : <br> http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/Samples
-<br>
+
 <br>
 <b> Experiment : Measurement of the wavelength of monochromatic source of light with the help of Fresnel’s Bi prism   <a name="top"></a> <br>
 </p>
@@ -68,7 +67,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 1.| Student will identify the relation between wavelength of the light source and the fringe width of the fringe pattern for the bi prism. | Student will complete introduction. He will be given 4 images for the relation between wavelength of the light source and the fringe width of the fringe pattern for the bi-prism and will choose correct image from them. | Choose the correct image for the relation between wavelength of the light source and the fringe width of the fringe pattern for the bi prism: <img src="images/fre.png"><br>a)A<br>b)B<br>c)C<br>d)D
 2.| To enable the student to describe the methodology to find the value of distance between two virtual sources created by bi-prism. | Student will be given 4 images for the correct procedure to be followed in the experiment. He will choose correct image from them. | Choose the correct image for the relation between wavelength of the light source and the fringe width of the fringe pattern for the bi prism: <img src="images/fre1.png"><br>a)image1<br>b)image2<br>c)image3<br>d)image4
 3.| Student will be able to Predict the fringe  | Student will make experimental set up followed by taking  | On increasing the wavelength of the light source  keeping 2d and D fixed the fringe width:<br>a) Increases<br>b) decreases<br>c)remains constant<br>d) NOT
-4.| Student will examine the values of mean fringe width, 2d and D and calculate the value of mean wavelength of the light source. | Student will take observations for 2d and D | The value of 2d is related with d1 and d2 according to the relation: A. 2d = √ (d1.d2) <br> B. 2d = √ (d1/d2) <br> C. 2d = d1. √ d2 <br> D. Option 2d = √ d1+d2 <br> 
+4.| Student will examine the values of mean fringe width, 2d and D and calculate the value of mean wavelength of the light source. | Student will take observations for 2d and D | The value of 2d is related with d1 and d2 according to the relation:<br> A. 2d = √ (d1.d2) <br> B. 2d = √ (d1/d2) <br> C. 2d = d1. √ d2 <br> D. Option 2d = √ d1+d2 <br> 
 5.| Conclude the mean wavelength of the light source. | Students will calculate the mean wavelength of the light source. | The wavelength of the light used in the Fresnel’s bi prism experiment is: <br> A. 5896 A<sup>0</sup> <br> B. 6000 A<sup>0</sup> <br> C. 6896 A<sup>0</sup> <br> D. 8596 A<sup>0</sup> <br> 
 
 
