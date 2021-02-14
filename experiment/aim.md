@@ -1,1 +1,1 @@
-### Aim of the experiment
+Measurement of the wavelength of monochromatic source of light with the help of Fresnel’s Bi prism
