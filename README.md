@@ -7,7 +7,7 @@
 
 <h5> About the Experiment : </h5> <br>
 
-In the case of bi-prism experiment the mean wavelength
+In the case of bi-prism experiment the mean wavelength,
 lemda = w*(2d/D)
 
 Where,  w = fringe width
