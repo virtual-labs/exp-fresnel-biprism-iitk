@@ -1,1 +1,19 @@
-[{"question":"The wavelength of the light used in the Fresnel’s bi prism experiment is:","answers":{"a":"5896 Å","b":"6000 Å","c":"6896 Å","d":"8596 Å"},"correctAnswer":"a"},{"question":"On increasing the wavelength of the light source fringe width:","answers":{"a":"increases","b":"decreases","c":"remains constant","d":"none of these"},"correctAnswer":"a"}]
+[{
+	"question": "The wavelength of the light used in the Fresnel’s bi prism experiment is:",
+	"answers": {
+		"a": "5896 Å",
+		"b": "6000 Å",
+		"c": "6896 Å",
+		"d": "8596 Å"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "On increasing the wavelength of the light source fringe width:",
+	"answers": {
+		"a": "increases",
+		"b": "decreases",
+		"c": "remains constant",
+		"d": "none of these"
+	},
+	"correctAnswer": "a"
+}]
