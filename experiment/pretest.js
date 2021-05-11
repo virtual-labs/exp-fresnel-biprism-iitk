@@ -89,24 +89,46 @@
 
 
      const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1.The angle of the bi prism is approx:", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "179<sup>0</sup> ", ///// Write the option 1 inside double quotes
+                b: "169<sup>0</sup>", ///// Write the option 2 inside double quotes
+                c: "159<sup>0</sup>", ///// Write the option 2 inside double quotes
+                d: "149<sup>0</sup>", ///// Write the option 2 inside double quotes
             },
             correctAnswer: "a" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
+      question: "Order of distance between virtual sources in the bi prism experiment is:",  ///// Write the question inside double quotes
       answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
+        a: "mm",                  ///// Write the option 1 inside double quotes
+        b: "m",                  ///// Write the option 2 inside double quotes
+        c: "km",   
+        d: "NOT",   },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
 
+    {
+      question: "The light Sources S<sub>1</sub> and S<sub>2</sub> are:",  ///// Write the question inside double quotes
+      answers: {
+        a: "virtual and coherent",                  ///// Write the option 1 inside double quotes
+        b: "real and coherent",                  ///// Write the option 2 inside double quotes
+        c: "virtual and incoherent",
+        d: "real and incoherent",
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },
 
+    {
+      question: "In the formula for calculating the wavelength of the light source from Fresnel’s bi Prism the distance D is between:",  ///// Write the question inside double quotes
+      answers: {
+        a: "slit and the eyepiece",                  ///// Write the option 1 inside double quotes
+        b: "bi prism and the eyepiece",                  ///// Write the option 2 inside double quotes
+        c: "slit and the bi prism",
+        d: "NOT",},
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },
 
      ];
 
