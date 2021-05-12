@@ -1,80 +1,39 @@
 [{
-	"question": "The angle of the bi prism is approx:",
+	"question": "1.The angle of the bi prism is approx:",
 	"answers": {
-		a: "179<sup>0</sup> ", 
-        b: "169<sup>0</sup>", 
-        c: "159<sup>0</sup>", 
-        d: "149<sup>0</sup>"
+		"a": "179<sup>0</sup>",
+		"b": "169<sup>0</sup>",
+		"c": "159<sup>0</sup>",
+		"d": "149<sup>0</sup>"
 	},
 	"correctAnswer": "a"
 }, {
 	"question": "Order of distance between virtual sources in the bi prism experiment is:",
 	"answers": {
-		 a: "mm",
-		 b: "m",
-		 c: "Km",
-		 d: "NOT"
-	},
-	"correctAnswer": "a"
-},
-{
-	"question": "The light Sources S<sub>1</sub> and S<sub>2</sub> are:",
-	"answers": {
-		a: "virtual and coherent",                  ///// Write the option 1 inside double quotes
-        b: "real and coherent",                  ///// Write the option 2 inside double quotes
-        c: "virtual and incoherent",
-        d: "real and incoherent"
-	},
-	"correctAnswer": "a"
-},{
-	"question": "Order of distance between virtual sources in the bi prism experiment is:",
-	"answers": {
 		"a": "mm",
 		"b": "m",
-		"c": "Km",
+		"c": "km",
 		"d": "NOT"
 	},
 	"correctAnswer": "a"
-}]
-
-
-question: "1.The angle of the bi prism is approx:", ///// Write the question inside double quotes
-            answers: {
-                a: "179<sup>0</sup> ", ///// Write the option 1 inside double quotes
-                b: "169<sup>0</sup>", ///// Write the option 2 inside double quotes
-                c: "159<sup>0</sup>", ///// Write the option 2 inside double quotes
-                d: "149<sup>0</sup>", ///// Write the option 2 inside double quotes
-            },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
-        },
-
-    {
-      question: "Order of distance between virtual sources in the bi prism experiment is:",  ///// Write the question inside double quotes
-      answers: {
-        a: "mm",                  ///// Write the option 1 inside double quotes
-        b: "m",                  ///// Write the option 2 inside double quotes
-        c: "km",   
-        d: "NOT",   },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },
-
-    {
-      question: "The light Sources S<sub>1</sub> and S<sub>2</sub> are:",  ///// Write the question inside double quotes
-      answers: {
-        a: "virtual and coherent",                  ///// Write the option 1 inside double quotes
-        b: "real and coherent",                  ///// Write the option 2 inside double quotes
-        c: "virtual and incoherent",
-        d: "real and incoherent",
-      },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },
-
-    {
-      question: "In the formula for calculating the wavelength of the light source from Fresnel’s bi Prism the distance D is between:",  ///// Write the question inside double quotes
-      answers: {
-        a: "slit and the eyepiece",                  ///// Write the option 1 inside double quotes
-        b: "bi prism and the eyepiece",                  ///// Write the option 2 inside double quotes
-        c: "slit and the bi prism",
-        d: "NOT",},
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
-    },
+}
+, {
+	"question": "The light Sources S<sub>1</sub> and S<sub>2</sub> are:",
+	"answers": {
+		"a": "virtual and coherent",
+		"b": "real and coherent",
+		"c": "virtual and incoherent",
+		"d": "real and incoherent"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "In the formula for calculating the wavelength of the light source from Fresnel’s bi Prism the distance D is between:",
+	"answers": {
+		"a": "slit and the eyepiece",
+		"b": "bi prism and the eyepiece",
+		"c": "slit and the bi prism",
+		"d": "NOT"
+	},
+	"correctAnswer": "a"
+}
+]
