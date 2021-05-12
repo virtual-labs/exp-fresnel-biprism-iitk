@@ -9,3 +9,4 @@
 9.	Repeat the experiment by changing the position of lens through symbol (+/-) button to complete the observation table.<br>
 10.	Click “Calculate” button to calculate the wavelength of light.<br>
 11.	Click “% error” button to calculate error in the calculated wave length.<br>
+
