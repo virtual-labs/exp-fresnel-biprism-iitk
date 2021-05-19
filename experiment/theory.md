@@ -4,12 +4,12 @@ Fresnel’s bi Prism is a glass prism consisting of one angle approximately 179<
 <img src="images/equation.PNG"><br><br>
 
 
-Where,   &omega; = fringe width
-              2d = distance between the two virtual sources
-               D = distance between the slit and the eyepiece
-Distanced between the virtual sources is given by 2d = √ (d<sub>1</sub>.d<sub>2</sub>)
-Where,
-              d<sub>1</sub> = distance between the two image formed by the convex lens in the first position.
+Where,  &nbsp; &omega; = fringe width<br><br>
+              2d = distance between the two virtual sources<br>
+               D = distance between the slit and the eyepiece<br>
+Distanced between the virtual sources is given by 2d = √ (d<sub>1</sub>.d<sub>2</sub>)<br><br>
+Where,<br><br>
+              d<sub>1</sub> = distance between the two image formed by the convex lens in the first position.<br>
               d<sub>2</sub> = distance between the two image formed by the convex lens in the second position
               
          
