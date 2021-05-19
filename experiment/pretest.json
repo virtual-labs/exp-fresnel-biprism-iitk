@@ -8,7 +8,7 @@
 	},
 	"correctAnswer": "a"
 }, {
-	"question": "Order of distance between virtual sources in the bi prism experiment is:",
+	"question": "2. Order of distance between virtual sources in the bi prism experiment is:",
 	"answers": {
 		"a": "mm",
 		"b": "m",
@@ -18,7 +18,7 @@
 	"correctAnswer": "a"
 }
 , {
-	"question": "The light Sources S<sub>1</sub> and S<sub>2</sub> are:",
+	"question": "3. The light Sources S<sub>1</sub> and S<sub>2</sub> are:",
 	"answers": {
 		"a": "virtual and coherent",
 		"b": "real and coherent",
@@ -27,7 +27,7 @@
 	},
 	"correctAnswer": "a"
 }, {
-	"question": "In the formula for calculating the wavelength of the light source from Fresnel’s bi Prism the distance D is between:",
+	"question": "4. In the formula for calculating the wavelength of the light source from Fresnel’s bi Prism the distance D is between:",
 	"answers": {
 		"a": "slit and the eyepiece",
 		"b": "bi prism and the eyepiece",
