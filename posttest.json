@@ -1,0 +1,39 @@
+[{
+	"question": "1. The wavelength of the light used in the Fresnel’s bi prism experiment is:",
+	"answers": {
+		"a": "5896 Å",
+		"b": "6000 Å",
+		"c": "6896 Å",
+		"d": "8596 Å"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "2. On increasing the wavelength of the light source fringe width:",
+	"answers": {
+		"a": "increases",
+		"b": "decreases",
+		"c": "remains constant",
+		"d": "none of these"
+	},
+	"correctAnswer": "a"
+}
+, {
+	"question": "3. In Fresnel’s bi Prism experiment the distance d1 is between: ",
+	"answers": {
+		"a": "the two image formed by the convex lens in the first position",
+		"b": "the two image formed by the convex lens in the Second position",
+		"c": "the two positions of the convex lens",
+		"d": "none of these"
+	},
+	"correctAnswer": "a"
+}, {
+	"question": "4. In Fresnel’s bi Prism experiment the distance d2 is between:",
+	"answers": {
+		"a": "the two image formed by the convex lens in the first position",
+		"b": "the two image formed by the convex lens in the second position ",
+		"c": "the two positions of the convex lens",
+		"d": "none of these"
+	},
+	"correctAnswer": "b"
+}
+]

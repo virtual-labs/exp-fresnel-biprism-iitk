@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fresnel’s Bi-Prism</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/biprism.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/biprism.css">
+
+    <style>
+        table,
+        th,
+        td {
+            padding-right: 20px;
+            border: 3px solid gray;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--<div style="text-align: center;">X : <span id="mouseX" style="border: 1px solid black; padding: 5px 20px; display: inline-block;">0</span> Y: <span id="mouseY" style="border: 1px solid black; padding: 5px 20px; display: inline-block;">0</span>
+    </div> -->
+    <div id="block">
+        <div>
+            <h2>Fresnel’s Bi-Prism Experiment</h2>
+        </div>
+        <div class="container-fluid mt-3">
+            <div class="row">
+                <div class="col-xs-8 ml-4">
+                    <div><canvas id="myCanvas" style="border: 3px solid rgb(94, 0, 0);;border-radius: 20px;
+                    margin: 10px 0 0 10px" width="870" height="430"></canvas>
+                        <img src="image/eyepiece.svg" id="eyeimg" style="display: none;">
+                        <img src="image/lens.svg" id="lensimg" style="display: none;">
+                        <img src="image/line.svg" id="lineimg" style="display: none;">
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="row convex mr-1">
+                        <div class="row">
+                            <div class="col-sm-6 pl-4">
+                                <button style="width: 110px" vlab-action="START_SIMULATOR" type="submit" id="poweron" class="btn btn-sm btn-warning ">Turn On </button>
+                            </div>
+                            <div class="col-sm-6 pl-1">
+                                <button style="width: 110px" vlab-action="STOP_SIMULATOR" type="submit" id="poweroff" class="btn btn-sm btn-danger">Turn Off</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 pl-4 ">
+                                <button type="submit" vlab-action="OPTICAL_BENCH" style="width: 110px" id="bench" class="btn btn-sm btn-primary">
+                                    Optical Bench</button>
+                            </div>
+                            <div class="col-sm-6 pl-1">
+                                <button style="width: 110px" vlab-action="LIGHT_SOURCE" type="submit" id="lsource" class="btn btn-sm btn-primary">Light Source</button>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 pl-4 ">
+                                <button type="submit" vlab-action="BI_PRISM" style="width: 110px" id="biprism" class="btn btn-sm btn-primary">
+                                    Bi-Prism</button>
+                            </div>
+                            <div class="col-sm-6 pl-1 ">
+                                <button type="submit" style="width: 110px" vlab-action="EYE_PIECE" id="eyepiece" class="btn btn-sm btn-primary">Eyepiece</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-8 pl-4">
+                                <button type="submit" vlab-action="PLACE_LENS" style="width: 110px" id="lens" class="btn btn-sm btn-primary">Place Lens</button>
+                            </div>
+                            <div class="col-sm-2" style="margin: 0 0 0 -54px;">
+                                <button type="submit" vlab-action="ADD_LENS" style="width: 51px" id="add" class="btn btn-sm btn-dark">+</button>
+                            </div>
+                            <div class="col-sm-2" style="margin: 0 0 0 14px;">
+                                <button type="submit" vlab-action="SUB_LENS" style="width: 51px" id="sub" class="btn btn-sm btn-dark">-</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 pl-4 align-items-center">
+                                <button style="width: 228px" vlab-action="RESET" type="submit" id="reset" class="btn btn-sm btn-danger">Reset</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mr-1" style="height: max-content; float: right">
+                        <div class="col pl-0 pr-0" style="border: 0px inset green; box-shadow: 0px 0px 20px #bbb; background-color:white;">
+                            <h5 class="text-center mb-0" style=" font-size: 15px; width: 270px; background-color: black; color: white; box-shadow: 0px 3px 20px #bbb">
+                                Message</h5>
+                            <div id="terminal">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin: 0px 20px 20px 20px; align-items: center">
+        <hr>
+        <h4>Table :: Calculate the mean wavelength of Light Source</h4>
+        <hr>
+        <div>
+            <table style="margin: auto;border: none;">
+                <tr style="border: none">
+                    <td style="border: none">
+                        <h6> Use this formula to calculate the distance b/w two virtual sources (2d),</h6>
+                    </td>
+                    <td style="border: none;">
+                        <h6><img src="image/distf.jpg"></img>
+                        </h6>
+                    </td>
+                    <td style="border: none">
+                        <div style="border-left: 5px solid black; height: 40px;"></div>
+                    </td>
+                    <td style="border: none">
+                        <h6> Use this formula to calculate the wavelength of the light (λ),</h6>
+                    </td>
+                    <td style="border: none;">
+                        <h6><img src="image/formula.jpg"></img>
+                        </h6>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <table width="100%" style="border: 2px solid gray; border-collapse: collapse;">
+            <thead>
+                <tr>
+                    <th rowspan="1">S. No.</th>
+                    <th rowspan="1">Fringe width(ω in cm)</th>
+                    <th rowspan="1">Distance B/W two virtual source(2d in cm)</th>
+                    <th rowspan="1">Distance B/W slit and eyepiece(D in cm)</th>
+                    <th rowspan="1">Wavelength(λ in cm)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>1</th>
+                    <td><input type="text" id="fw1"></td>
+                    <td><input type="text" id="2d1"></td>
+                    <td><input type="number" id="D1"></td>
+                    <td id="wl1"></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td><input type="text" id="fw2"></td>
+                    <td><input type="text" id="2d2"></td>
+                    <td><input type="number" id="D2"></td>
+                    <td id="wl2"></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td><input type="text" id="fw3"></td>
+                    <td><input type="text" id="2d3"></td>
+                    <td><input type="number" id="D3"></td>
+                    <td id="wl3"></td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td><input type="text" id="fw4"></td>
+                    <td><input type="text" id="2d4"></td>
+                    <td><input type="number" id="D4"></td>
+                    <td id="wl4"></td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td><input type="text" id="fw5"></td>
+                    <td><input type="text" id="2d5"></td>
+                    <td><input type="number" id="D5"></td>
+                    <td id="wl5"></td>
+                </tr>
+                <tr>
+                    <th scope="row"></th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td style="font-weight: bold;">Mean wavelength=<span id="meanwl"></span></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table style="width: 100%; margin: auto;border: none;">
+            <tr style="border: none">
+                <td style="border: none; align-items: center;">
+                    <a style="background-color: rgb(94, 0, 0); border-radius:3px;width: 50px; margin: 200px 0px 0px 400px;
+                        height: 30px; color:white;cursor: pointer;font-size: 20px;padding:5px 10px 5px 10px;" onclick="calcwl()">Calculate(λ) </a>
+                    <a style="background-color: rgb(94, 0, 0); border-radius:3px;width: 50px; margin: 200px 0px 0px 20px;
+            height: 30px; color:white;cursor: pointer;font-size: 20px;padding:5px 10px 5px 10px;" onclick="verifywl()">% Error(in λ)</a>
+                </td>
+                <td style="border: none;">
+                    <p id="verify"></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+<script src="../assets/js/iframeResize.js"></script></body>
+
+</html>
